@@ -1,12 +1,12 @@
 # hotel_booking
 
-sever.xml을 open
-https://tomcat.apache.org/  이동
-왼쪽메뉴 Documentation 에서 톰캣9.0 선택
-10번에 JDBC DataSource 클릭
-3번째줄에 Database Connection Pool (DBCP 2) Configurations 안에 보면 
-4. Oracle 8i, 9i & 10g 클릭
-1. Context configuration 확인 가능
+sever.xml을 open <br>
+https://tomcat.apache.org/  이동 <br>
+왼쪽메뉴 Documentation 에서 톰캣9.0 선택 <br>
+10번에 JDBC DataSource 클릭<br>
+3번째줄에 Database Connection Pool (DBCP 2) Configurations 안에 보면 <br>
+4. Oracle 8i, 9i & 10g 클릭<br>
+1. Context configuration 확인 가능<br>
 파란박스 소스 드래그 <Resource name= << 여기문구
 <Resource name="jdbc/myoracle" auth="Container"
               type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver"
